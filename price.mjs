@@ -1,7 +1,7 @@
 import axios from 'axios'
 import fs from 'fs'
 
-const API_KEY = '39412000b59f4f35aa94381a0a35bd10'
+const API_KEY = process.env.API_KEY_EXCHANGE_RATES
 const EXCHANGE_RATE_URL = `https://openexchangerates.org/api/latest.json?app_id=${API_KEY}`
 
 // Leggi le date esistenti dal file e uniformale al formato gg/mm/aa
