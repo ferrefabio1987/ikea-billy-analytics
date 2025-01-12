@@ -1,4 +1,4 @@
-/*const urlsBilly1 = [
+const urlsBilly1 = [
   //BILLY Bookcase white 80x28x202 cm
   'https://www.ikea.com/ae/en/p/billy-bookcase-white-00263850/',
   'https://www.ikea.com/at/de/p/billy-buecherregal-weiss-00263850/',
@@ -174,11 +174,6 @@ const urlsBilly3 = [
   'https://www.ikea.com.tw/en/products/storage/bookcases/billy-art-70522044',
   'https://www.ikea.com/us/en/p/billy-bookcase-white-30263844/'
 ]
-*/
-
-const urlsBilly1 = ['https://www.ikea.com/ae/en/p/billy-bookcase-white-00263850/', 'https://www.ikea.com/ch/de/p/billy-regal-weiss-00263850/']
-const urlsBilly2 = []
-const urlsBilly3 = []
 
 export const allBilly = [
   ...urlsBilly1.map((url) => [url, 'BILLY Bookcase white 80x28x202 cm']),
