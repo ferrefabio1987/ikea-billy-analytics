@@ -1,5 +1,8 @@
+import dotenv from 'dotenv'
 import axios from 'axios'
 import fs from 'fs'
+
+dotenv.config()
 
 const API_KEY = process.env.API_KEY_EXCHANGE_RATES
 const EXCHANGE_RATE_URL = `https://openexchangerates.org/api/latest.json?app_id=${API_KEY}`
