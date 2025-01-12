@@ -1,0 +1,22 @@
+{
+  "name": "marco",
+  "version": "1.0.0",
+  "main": "index.mjs",
+  "type": "module",
+  "devDependencies": {
+    "prettier": "3.4.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.mjs",
+    "lint": "yarn prettier . --write"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "csv-parser": "^3.1.0"
+  }
+}
