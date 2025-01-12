@@ -38,6 +38,12 @@ $ npm start
 $ yarn start
 ```
 
+Configurazione
+
+Il progetto supporta l'uso di variabili di ambiente tramite un file .env. Assicurati di creare un file .env nella directory principale con le seguenti variabili:
+
+API_KEY_EXCHANGE_RATES=Chiave di exchange rates api
+
 ## Contribuire
 Se desideri contribuire:
 1. Fai un fork del progetto
